@@ -50,3 +50,33 @@ footer {
     padding: 1em 0;
     margin-top: 6em;
 }
+
+@media only screen and (min-width: 890px) {
+    body {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    .hidden-on-desktop {
+        display: none;
+    }
+    h1 {
+        text-align: left;
+        float: left;
+        margin-bottom: 0;
+        padding: 15px 0;
+    }
+    nav {
+        float: right;
+        padding-right: 5px;
+    }
+    .header-img {
+        clear: both;
+        padding-top: 30px;
+    }
+    .nav-links>li {
+        display: inline-block;
+        background: none;
+
+    }
+
+}
