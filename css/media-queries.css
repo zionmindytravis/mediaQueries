@@ -48,7 +48,17 @@ section>h2 {
 }
 footer {
     padding: 1em 0;
-    margin-top: 6em;
+    text-align: center;
+}
+
+#social-media-links {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+#social-media-links>img {
+    height: 5em;
 }
 
 @media only screen and (min-width: 890px) {
@@ -78,5 +88,14 @@ footer {
         background: none;
 
     }
+    .main {
+        width: calc(66% - 2em);
+        float: left;
+        padding-right: 2em;
+    }
+    h2 {
+        padding-bottom: 1em;
+    }
+
 
 }
