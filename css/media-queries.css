@@ -46,6 +46,12 @@ section>h2 {
 .sub-section {
     font-style: italic;
 }
+
+/*************
+*            *
+*   footer   *
+*            *
+*************/
 footer {
     padding: 1em 0;
     text-align: center;
@@ -60,6 +66,12 @@ footer {
 #social-media-links>img {
     height: 5em;
 }
+
+/**************
+*             *
+*   desktop   *
+*             *
+**************/
 
 @media only screen and (min-width: 890px) {
     body {
@@ -93,9 +105,30 @@ footer {
         float: left;
         padding-right: 2em;
     }
+    .sub-section {
+        margin-bottom: 300px;
+    }
     h2 {
         padding-bottom: 1em;
     }
-
+    footer {
+        margin: 200px 0 100px 0;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
+    footer>p {
+        width: 50%;
+        text-align: right;
+        align-self: center;
+    }
+    #social-media-links {
+        justify-content: space-between;
+        padding: 0;
+        width: 30%;
+    }
+    #social-media-links>a>img  {
+        height: 2.5em;
+    }
 
 }
