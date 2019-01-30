@@ -23,14 +23,30 @@ h1 {
     text-align: center;
     margin-bottom: 20px;
 }
-.nav-links {
+.nav-links>li {             /* combined selectors for elements in nav-list */
     list-style-type: none;
-
-}
-
-li {
     background: #cccccc;
     text-align: center;
     padding: 15px;
-    margin: 10px;
+    margin: 10px 0; /* changed to apply only to top/bottom margin */
+}
+/*added 1/30 */
+.header-img>img {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+section {
+    margin-bottom: 20px;
+}
+
+section>h2 {
+    margin-bottom: 10px;
+}
+
+.sub-section {
+    font-style: italic;
+}
+footer {
+    padding: 1em 0;
+    margin-top: 6em;
 }
