@@ -156,5 +156,8 @@ footer {
     #social-media-links>a>img  {
         height: 2.5em;
     }
+    #social-media-links>a>img:hover {
+        opacity: .5;
+    }
 
 }
